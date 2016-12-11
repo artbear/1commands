@@ -1,5 +1,7 @@
 # 1commands
 
+Обсудить [![Join the chat at https://gitter.im/EvilBeaver/oscript-library](https://badges.gitter.im/EvilBeaver/oscript-library.svg)](https://gitter.im/EvilBeaver/oscript-library?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge) [![GitHub release](https://img.shields.io/github/release/artbear/1commands.svg)](https://github.com/artbear/1commands/releases)
+
 ## Библиотека для упрощения работы c запуском различных приложений и командных файлов (cmd, bat, bash) из oscript.
 
 Позволяет выполнять рутинные операции по запуску приложений и командных файлов системы.
