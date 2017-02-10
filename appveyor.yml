@@ -42,9 +42,9 @@ install:
     
     opm list
 
-    opm install 1testrunner
-    
     opm install 1commands
+
+    opm install 1testrunner    
     
     opm install 1bdd
 

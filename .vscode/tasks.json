@@ -57,6 +57,18 @@
             }
         },
         {
+            "taskName": "Opm: package build",
+            "args": [
+                 "opm",
+                "build",
+                "${workspaceRoot}"
+            ],
+            "echoCommand": true,
+            "showOutput": "always",
+            "suppressTaskName": true,
+            "isBuildCommand": false
+        },
+        {
             "taskName": "Exec all features",
             "args": [
                  "1bdd",
