@@ -3,7 +3,7 @@
 Обсудить [![Join the chat at https://gitter.im/EvilBeaver/oscript-library](https://badges.gitter.im/EvilBeaver/oscript-library.svg)](https://gitter.im/EvilBeaver/oscript-library?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge) [![GitHub release](https://img.shields.io/github/release/artbear/1commands.svg)](https://github.com/artbear/1commands/releases)
 [![Build status](https://ci.appveyor.com/api/projects/status/ervidk37h9m0tgs5?svg=true)](https://ci.appveyor.com/project/artbear/1commands)
 
-## Библиотека для упрощения работы c запуском различных приложений и командных файлов (cmd, bat, bash) из oscript.
+## Библиотека для упрощения работы c запуском различных приложений и командных файлов (cmd, bat, bash, PowerShell и др.) из oscript.
 
 Позволяет выполнять рутинные операции по запуску приложений и командных файлов системы.
 
@@ -30,7 +30,22 @@
 КомандныйФайл.ДобавитьКоманду("@echo off");	
 КомандныйФайл.ДобавитьКоманду("oscript -version");	
 
-Сообщить(КомандныйФайл.ПолучитьСодержимоеФайла());
+Сообщить(КомандныйФайл.ПолучитьТекстФайла());
+
+КодВозврата = КомандныйФайл.Исполнить();
+Сообщить(КодВозврата);
+
+Сообщить(КомандныйФайл.ПолучитьВывод());
+```
+или запуск командного файла PowerShell
+```bsl
+КомандныйФайл = Новый КомандныйФайл;
+КомандныйФайл.УстановитьПриложение("C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe");
+КомандныйФайл.Создать(,".ps1");
+
+КомандныйФайл.ДобавитьКоманду("Get-Help");		
+
+Сообщить(КомандныйФайл.ПолучитьТекстФайла());
 
 КодВозврата = КомандныйФайл.Исполнить();
 Сообщить(КодВозврата);
