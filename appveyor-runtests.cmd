@@ -9,7 +9,7 @@ set OSCRIPT=%ProgramFiles(x86)%\OneScript
 @echo .
 
 @rem call 1bdd features -junit-out ./bdd-log.xml
-@call opm test
+@call oscript tasks/test.os
 
 @if %ERRORLEVEL%==2 GOTO good_exit_bdd
 @if %ERRORLEVEL%==0 GOTO good_exit_bdd

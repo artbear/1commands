@@ -1,2 +1,4 @@
 exec.log
 bdd-log.xml
+*.ospx
+coverage/
