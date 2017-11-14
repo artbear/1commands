@@ -1,7 +1,7 @@
 # 1commands
 
-Обсудить [![Join the chat at https://gitter.im/EvilBeaver/oscript-library](https://badges.gitter.im/EvilBeaver/oscript-library.svg)](https://gitter.im/EvilBeaver/oscript-library?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge) [![GitHub release](https://img.shields.io/github/release/artbear/1commands.svg)](https://github.com/artbear/1commands/releases)
-[![Build Status](http://build.oscript.io/buildStatus/icon?job=oscript-library/1commands/develop)](http://build.oscript.io/job/oscript-library/job/1commands/job/develop/) [![Build status](https://ci.appveyor.com/api/projects/status/ervidk37h9m0tgs5?svg=true)](https://ci.appveyor.com/project/artbear/1commands)
+Обсудить [![Join the chat at https://gitter.im/EvilBeaver/oscript-library](https://badges.gitter.im/EvilBeaver/oscript-library.svg)](https://gitter.im/EvilBeaver/oscript-library?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge) [![GitHub release](https://img.shields.io/github/release/artbear/1commands.svg)](https://github.com/artbear/1commands/releases) [![Build Status](http://build.oscript.io/buildStatus/icon?job=oscript-library/1commands/develop)](http://build.oscript.io/job/oscript-library/job/1commands/job/develop/) 
+[![Build status](https://ci.appveyor.com/api/projects/status/ervidk37h9m0tgs5?svg=true)](https://ci.appveyor.com/project/artbear/1commands)
 
 ## Библиотека для упрощения работы c запуском различных приложений и командных файлов (cmd, bat, bash, PowerShell и др.) из oscript.
 
