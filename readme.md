@@ -1,6 +1,7 @@
 # 1commands
 
-Обсудить [![Join the chat at https://gitter.im/EvilBeaver/oscript-library](https://badges.gitter.im/EvilBeaver/oscript-library.svg)](https://gitter.im/EvilBeaver/oscript-library?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge) [![GitHub release](https://img.shields.io/github/release/artbear/1commands.svg)](https://github.com/artbear/1commands/releases) [![Build Status](http://build.oscript.io/buildStatus/icon?job=oscript-library/1commands/develop)](http://build.oscript.io/job/oscript-library/job/1commands/job/develop/) 
+
+[![Статус Порога Качества](https://sonar.openbsl.ru/api/project_badges/measure?project=1commands&metric=alert_status)](https://sonar.openbsl.ru/dashboard?id=1commands) [![Покрытие](https://sonar.openbsl.ru/api/project_badges/measure?project=1commands&metric=coverage)](https://sonar.openbsl.ru/dashboard?id=1commands) [![Строки кода](https://sonar.openbsl.ru/api/project_badges/measure?project=1commands&metric=ncloc)](https://sonar.openbsl.ru/dashboard?id=1commands) [![GitHub release](https://img.shields.io/github/release/artbear/1commands.svg)](https://github.com/artbear/1commands/releases) [![Build Status](http://build.oscript.io/buildStatus/icon?job=oscript-library/1commands/develop)](http://build.oscript.io/job/oscript-library/job/1commands/job/develop/)
 [![Build status](https://ci.appveyor.com/api/projects/status/ervidk37h9m0tgs5?svg=true)](https://ci.appveyor.com/project/artbear/1commands)
 
 ## Библиотека для упрощения работы c запуском различных приложений и командных файлов (cmd, bat, bash, PowerShell и др.) из oscript.
@@ -12,7 +13,7 @@
 Команда = Новый Команда;
 
 Команда.УстановитьКоманду("oscript");
-Команда.ДобавитьПараметр("-version");	
+Команда.ДобавитьПараметр("-version");
 
 // или сразу Команда.УстановитьСтрокуЗапуска("oscript -version");
 
@@ -27,8 +28,8 @@
 КомандныйФайл = Новый КомандныйФайл;
 КомандныйФайл.Создать();
 
-КомандныйФайл.ДобавитьКоманду("@echo off");	
-КомандныйФайл.ДобавитьКоманду("oscript -version");	
+КомандныйФайл.ДобавитьКоманду("@echo off");
+КомандныйФайл.ДобавитьКоманду("oscript -version");
 
 Сообщить(КомандныйФайл.ПолучитьТекстФайла());
 
@@ -43,7 +44,7 @@
 КомандныйФайл.УстановитьПриложение("C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe");
 КомандныйФайл.Создать("",".ps1");
 
-КомандныйФайл.ДобавитьКоманду("Get-Help");		
+КомандныйФайл.ДобавитьКоманду("Get-Help");
 
 Сообщить(КомандныйФайл.ПолучитьТекстФайла());
 

@@ -3,3 +3,4 @@ bdd-log.xml
 *.ospx
 coverage/
 oscript_modules/
+bdd-exec.xml
