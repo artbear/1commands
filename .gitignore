@@ -4,3 +4,4 @@ bdd-log.xml
 coverage/
 oscript_modules/
 bdd-exec.xml
+.scannerwork/
