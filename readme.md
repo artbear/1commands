@@ -10,7 +10,7 @@
 <!-- [![Build Status](http://build.oscript.io/buildStatus/icon?job=oscript-library/1commands/develop)](http://build.oscript.io/job/oscript-library/job/1commands/job/develop/)
 [![Build status](https://ci.appveyor.com/api/projects/status/ervidk37h9m0tgs5?svg=true)](https://ci.appveyor.com/project/artbear/1commands) -->
 
-## Библиотека для упрощения работы c запуском различных приложений и командных файлов (cmd, bat, bash, PowerShell и др.) из oscript.
+## Библиотека для упрощения работы c запуском различных приложений и командных файлов (cmd, bat, bash, PowerShell, 1С через vanessa-runner и др.) из oscript.
 
 Позволяет выполнять рутинные операции по запуску приложений и командных файлов системы.
 
