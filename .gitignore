@@ -1,7 +1,10 @@
+# Файлы
 exec.log
 bdd-log.xml
 *.ospx
+bdd-exec.xml
+
+# Каталоги
 coverage/
 oscript_modules/
-bdd-exec.xml
 .scannerwork/
