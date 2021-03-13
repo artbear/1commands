@@ -1,7 +1,7 @@
 # 1commands
 
 [![GitHub release](https://img.shields.io/github/release/artbear/1commands.svg)](https://github.com/artbear/1commands/releases) 
-![GitHub Workflow Status](https://img.shields.io/github/workflow/status/artbear/1commands/%D0%A2%D0%B5%D1%81%D1%82%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5?style=flat-square)
+[![GitHub Workflow Status](https://img.shields.io/github/workflow/status/artbear/1commands/%D0%A2%D0%B5%D1%81%D1%82%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5?style=flat-square)](https://github.com/artbear/1commands/actions)
 [![Статус Порога Качества](https://sonar.openbsl.ru/api/project_badges/measure?project=1commands&metric=alert_status)](https://sonar.openbsl.ru/dashboard?id=1commands) 
 [![Покрытие](https://sonar.openbsl.ru/api/project_badges/measure?project=1commands&metric=coverage)](https://sonar.openbsl.ru/dashboard?id=1commands)
 [![Технический долг](https://sonar.openbsl.ru/api/project_badges/measure?project=1commands&metric=sqale_index)](https://sonar.openbsl.ru/dashboard?id=1commands)
