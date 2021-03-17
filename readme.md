@@ -1,10 +1,17 @@
 # 1commands
 
+[![GitHub release](https://img.shields.io/github/release/artbear/1commands.svg)](https://github.com/artbear/1commands/releases) 
+[![GitHub Workflow Status](https://img.shields.io/github/workflow/status/artbear/1commands/%D0%A2%D0%B5%D1%81%D1%82%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5?style=flat-square)](https://github.com/artbear/1commands/actions)
+[![Статус Порога Качества](https://sonar.openbsl.ru/api/project_badges/measure?project=1commands&metric=alert_status)](https://sonar.openbsl.ru/dashboard?id=1commands) 
+[![Покрытие](https://sonar.openbsl.ru/api/project_badges/measure?project=1commands&metric=coverage)](https://sonar.openbsl.ru/dashboard?id=1commands)
+[![Технический долг](https://sonar.openbsl.ru/api/project_badges/measure?project=1commands&metric=sqale_index)](https://sonar.openbsl.ru/dashboard?id=1commands)
+[![Строки кода](https://sonar.openbsl.ru/api/project_badges/measure?project=1commands&metric=ncloc)](https://sonar.openbsl.ru/dashboard?id=1commands) 
 
-[![Статус Порога Качества](https://sonar.openbsl.ru/api/project_badges/measure?project=1commands&metric=alert_status)](https://sonar.openbsl.ru/dashboard?id=1commands) [![Покрытие](https://sonar.openbsl.ru/api/project_badges/measure?project=1commands&metric=coverage)](https://sonar.openbsl.ru/dashboard?id=1commands) [![Строки кода](https://sonar.openbsl.ru/api/project_badges/measure?project=1commands&metric=ncloc)](https://sonar.openbsl.ru/dashboard?id=1commands) [![GitHub release](https://img.shields.io/github/release/artbear/1commands.svg)](https://github.com/artbear/1commands/releases) [![Build Status](http://build.oscript.io/buildStatus/icon?job=oscript-library/1commands/develop)](http://build.oscript.io/job/oscript-library/job/1commands/job/develop/)
-[![Build status](https://ci.appveyor.com/api/projects/status/ervidk37h9m0tgs5?svg=true)](https://ci.appveyor.com/project/artbear/1commands)
+<!-- [![Build Status](http://build.oscript.io/buildStatus/icon?job=oscript-library/1commands/develop)](http://build.oscript.io/job/oscript-library/job/1commands/job/develop/)
+[![Build status](https://ci.appveyor.com/api/projects/status/ervidk37h9m0tgs5?svg=true)](https://ci.appveyor.com/project/artbear/1commands) -->
+[Vanessa open-source![Chat on Telegram vanessa_opensource_chat](https://img.shields.io/badge/Chat%20on-Telegram-brightgreen.svg)](https://t.me/vanessa_opensource_chat) или [oscript_library ![Chat on Telegram oscript_library](https://img.shields.io/badge/Chat%20on-Telegram-brightgreen.svg)](https://t.me/oscript_library) - в этих чатах вы можете задавать любые вопросы разработчикам и активным участникам.
 
-## Библиотека для упрощения работы c запуском различных приложений и командных файлов (cmd, bat, bash, PowerShell и др.) из oscript.
+## Библиотека для упрощения работы c запуском различных приложений и командных файлов (cmd, bat, bash, PowerShell, 1С через vanessa-runner и др.) из oscript.
 
 Позволяет выполнять рутинные операции по запуску приложений и командных файлов системы.
 
